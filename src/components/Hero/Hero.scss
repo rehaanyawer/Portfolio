@@ -42,12 +42,18 @@
   }
   .imageContainer {
     height: 100%;
+    width: 30%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 100px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
   .slidingTextContainer {
     position: absolute;
+
     font-size: 50vh;
     bottom: -110px;
     white-space: nowrap;
