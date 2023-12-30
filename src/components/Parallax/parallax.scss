@@ -30,6 +30,10 @@
       background-size: contain;
       background-repeat: no-repeat;
     }
+    @include tablet {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
   .planets {
     background-image: url('/planets.png');
@@ -40,6 +44,10 @@
     position: absolute;
     z-index: 2;
     @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    @include tablet {
       background-size: contain;
       background-repeat: no-repeat;
     }

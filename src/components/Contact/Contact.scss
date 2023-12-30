@@ -13,6 +13,12 @@
     flex-direction: column;
   }
 
+  @include tablet {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
   .textContainer {
     flex: 1;
     display: flex;
@@ -20,6 +26,12 @@
     gap: 40px;
 
     @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+    @include tablet {
       gap: 20px;
       text-align: center;
       align-items: center;
@@ -33,10 +45,21 @@
       @include mobile {
         font-size: 36px;
       }
+      @include tablet {
+        font-size: 60px;
+      }
+    }
+    h2 {
+      @include tablet {
+        font-size: 30px;
+      }
     }
 
     span {
       font-weight: 300;
+      @include tablet {
+        font-size: 25px;
+      }
     }
   }
 
@@ -44,6 +67,10 @@
     flex: 1;
     position: relative;
     @include mobile {
+      width: 100%;
+      padding: 50px;
+    }
+    @include tablet {
       width: 100%;
       padding: 50px;
     }
@@ -69,6 +96,9 @@
 
         @include mobile {
           padding: 10px;
+        }
+        @include tablet {
+          padding: 20px;
         }
       }
 
