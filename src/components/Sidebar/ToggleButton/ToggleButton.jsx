@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-const ToggleButton = ({ setOpen, open }) => {
+const ToggleButton = ({ setOpen }) => {
   return (
     <button
       type='button'

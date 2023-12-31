@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import './services.scss';
-import { animate, motion, useInView } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 
 const variants = {
   initial: {
@@ -57,7 +57,21 @@ const Services = () => {
       <motion.div className='listContainer' variants={variants}>
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
+          whileHover={{ background: 'lightgray', color: 'black' }}
+        >
+          <h2>Branding</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled
+          </p>
+          <button>Go</button>
+        </motion.div>
+
+        <motion.div
+          className='box'
+          whileHover={{ background: 'lightgray', color: 'black' }}
         >
           <h2>Branding</h2>
           <p>
@@ -85,21 +99,7 @@ const Services = () => {
 
         <motion.div
           className='box'
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
-          </p>
-          <button>Go</button>
-        </motion.div>
-
-        <motion.div
-          className='box'
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
+          whileHover={{ background: 'lightgray', color: 'black' }}
         >
           <h2>Branding</h2>
           <p>
