@@ -15,17 +15,17 @@ const Navbar = () => {
           Yawar Mushtaq
         </motion.span>
         <div className='social'>
-          <a href='#'>
+          <a href='https://github.com/rehaanyawer'>
+            <img src='/github.png' alt='' />
+          </a>
+          <a href='https://www.facebook.com/rehaan.yawer'>
             <img src='/facebook.png' alt='' />
           </a>
-          <a href='#'>
-            <img src='/instagram.png' alt='' />
+          <a href='https://www.linkedin.com/in/yawar-mushtaq-861298230/'>
+            <img src='/linkedin.png' alt='' />
           </a>
-          <a href='#'>
-            <img src='/youtube.png' alt='' />
-          </a>
-          <a href='#'>
-            <img src='/dribbble.png' alt='' />
+          <a href='https://twitter.com/RehaanYawer'>
+            <img src='/twitter.png' alt='' />
           </a>
         </div>
       </div>

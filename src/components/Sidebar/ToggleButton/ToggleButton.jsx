@@ -2,10 +2,9 @@ import { motion } from 'framer-motion';
 const ToggleButton = ({ setOpen }) => {
   return (
     <button
-      type='button'
       onClick={(e) => {
         e.preventDefault();
-        setOpen(!open);
+        setOpen((prev) => !prev);
       }}
     >
       <svg width='23' height='23' viewBox='0 0 23 23'>

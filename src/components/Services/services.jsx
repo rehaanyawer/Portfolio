@@ -47,7 +47,7 @@ const Services = () => {
         </div>
         <div className='title'>
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>For Your</motion.b>
+            <motion.b whileHover={{ color: 'orange' }}> For Your </motion.b>
             Company.
           </h1>
           <button>WHAT I DO?</button>
@@ -59,57 +59,51 @@ const Services = () => {
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Web Scrapping Using Next.js</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
+            I am currently in the process of building a dynamic web scraping
+            application using Next.js, a powerful React framework, and Node.js
+            for server-side functionality. This application will empower users
+            to input a URL, triggering a background process that utilizes
+            Node.js to scrape and present pertinent information from the
+            provided webpage.
           </p>
-          <button>Go</button>
         </motion.div>
 
         <motion.div
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Interactive Data Dashboard</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
+            I am in the exciting phase of developing an interactive data
+            dashboard, seamlessly combining the power of React for the frontend
+            and Node.js for the backend. This project aims to deliver a robust
+            platform for users to visualize and analyze complex datasets in
+            real-time through dynamic charts and graphs.
           </p>
-          <button>Go</button>
         </motion.div>
 
         <motion.div
           className='box'
           whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Subscription Box with a Twist</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
+            Create a subscription box service with a unique twist related to
+            your industry. For example, if you&apos;re in the beauty industry,
+            you could offer a monthly subscription that includes personalized
+            skincare products based on individual preferences.
           </p>
-          <button>Go</button>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
           <h2>Branding</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
-          </p>
-          <button>Go</button>
-        </motion.div>
+          <p></p>
+        </motion.div> */}
       </motion.div>
     </motion.div>
   );

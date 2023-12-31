@@ -16,6 +16,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 40px;
+      z-index: 33;
 
       @include mobile {
         height: 50%;
@@ -45,6 +46,7 @@
         }
       }
       .buttons {
+        z-index: 1;
         button {
           padding: 20px;
           border: 1px solid white;
@@ -91,7 +93,7 @@
   }
   .slidingTextContainer {
     position: absolute;
-
+    z-index: 0;
     font-size: 50vh;
     bottom: -110px;
     white-space: nowrap;
