@@ -5,27 +5,24 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const items = [
   {
     id: 1,
-    title: 'REact app',
-    img: 'https://images.pexels.com/photos/19380634/pexels-photo-19380634/free-photo-of-tabby-cat-yawning.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero hic blanditiis autem, velit, saepe optio eum, nemo deleniti atque fugit minus perspiciatis enim magnam dolorum minima recusandae nesciunt cumque veritatis!',
+    title: 'Drum Kit',
+    img: '/drumkit.png',
+    desc: 'Turn your browser into a virtual drum set with our JavaScript Drum Kit! Hit keys on your keyboard to play different drum sounds in real-time. It&ados;s easy, fun, and you create your beats on the fly. Immerse yourself in the joy of making music right from your browser with this dynamic and entertaining drumming experience! 🥁🎶',
+    url: 'https://drum-kit-omega-six.vercel.app/',
   },
   {
     id: 2,
-    title: 'vanilla app',
-    img: 'https://images.pexels.com/photos/19578467/pexels-photo-19578467/free-photo-of-a-bench-is-sitting-on-a-hillside-in-the-sun.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero hic blanditiis autem, velit, saepe optio eum, nemo deleniti atque fugit minus perspiciatis enim magnam dolorum minima recusandae nesciunt cumque veritatis!',
+    title: 'Tin Dog',
+    img: 'tin.png',
+    desc: 'Welcome to TinDog, where you can meet new and interesting dogs nearby. Our easy-to-use app is designed for you and your furry friend to find the perfect match. TinDog ensures that every dog has a plan tailored to their needs. From the free Chihuahua plan to the premium Mastiff plan, its time to meet the hottest dogs in town! 🐾📱💕',
+    url: 'https://tin-dog-lovat.vercel.app/',
   },
   {
     id: 3,
-    title: 'node js',
-    img: 'https://images.pexels.com/photos/19526562/pexels-photo-19526562/free-photo-of-two-swans-swimming-in-a-lake-with-reeds-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero hic blanditiis autem, velit, saepe optio eum, nemo deleniti atque fugit minus perspiciatis enim magnam dolorum minima recusandae nesciunt cumque veritatis!',
-  },
-  {
-    id: 4,
-    title: 'typescript',
-    img: 'https://images.pexels.com/photos/18866331/pexels-photo-18866331/free-photo-of-model-in-black-top-and-jacket.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero hic blanditiis autem, velit, saepe optio eum, nemo deleniti atque fugit minus perspiciatis enim magnam dolorum minima recusandae nesciunt cumque veritatis!',
+    title: 'Simon Game',
+    img: '/simon.png',
+    desc: 'Dive into the nostalgia of the Simon game, brought to life with JavaScript! This interactive web application tests your memory as you strive to repeat a sequence of colors. The game begins with a randomly generated color pattern, and your task is to replicate it by clicking on the corresponding colors.',
+    url: 'https://simon-game-challenge-five.vercel.app/',
   },
 ];
 
@@ -49,7 +46,9 @@ const Single = ({ item }) => {
           <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button>
+              <a href={item.url}>See Demo</a>
+            </button>
           </motion.div>
         </div>
       </div>
