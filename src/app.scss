@@ -34,3 +34,9 @@ section {
     @content;
   }
 }
+
+@mixin device {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
