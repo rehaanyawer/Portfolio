@@ -9,6 +9,7 @@
     text-align: center;
     color: orange;
     font-size: 36px;
+    z-index: 10;
 
     @include mobile {
       padding-top: calc(100vh - 120px);
@@ -88,6 +89,7 @@
           padding: 30px;
           gap: 10px;
           margin-top: -60px;
+          z-index: 99;
         }
         @include tablet {
           transform: none !important;
